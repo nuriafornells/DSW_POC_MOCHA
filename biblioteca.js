@@ -1,4 +1,4 @@
-class Biblioteca {
+export class Biblioteca {
   constructor() {
     this.libros = [];
   }
@@ -38,5 +38,3 @@ class Biblioteca {
     return this.libros;
   }
 }
-
-module.exports = Biblioteca;

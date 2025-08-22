@@ -1,14 +1,4 @@
-INSTRUCCIONES USO MOCHA
-en bash (estando en la carpeta del proyecto):
+
 npm init -y
 npm install mocha chai --save-dev
-
-despues:
-En package.json, agregar en la sección "scripts" ( reemplazar lo que está en test por "mocha".):
-"scripts": {
-  "test": "mocha"
-}
-
-luego en bash:
 npm test
-(aparecen los resultados del test de biblioteca.js)

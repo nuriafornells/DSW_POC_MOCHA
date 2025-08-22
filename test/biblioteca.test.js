@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const Biblioteca = require('../biblioteca');
+import { expect } from 'chai';
+import { Biblioteca } from '../biblioteca.js';
 
 describe('pruebo funciones Biblioteca', function () {
   let miBiblioteca;

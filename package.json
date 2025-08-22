@@ -2,6 +2,7 @@
   "name": "pruebamocha",
   "version": "1.0.0",
   "main": "biblioteca.js",
+  "type": "module",
   "directories": {
     "test": "test"
   },
